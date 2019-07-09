@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from ..items import WebscrapingItem
+from ..items import YatraOffersItem
 
 
 class YatraOffersSpider(scrapy.Spider):
@@ -20,7 +20,7 @@ class YatraOffersSpider(scrapy.Spider):
     total_pages = 0
 
     def parse(self, response):
-    	items = WebscrapingItem()
+    	items = YatraOffersItem()
 
     	all_li_offers = response.css('ul.wfull')
 
