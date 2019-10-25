@@ -1,4 +1,4 @@
-# Web Scraping Through Scrapy - Circles IIMA
+# Web Scraping Through Scrapy
 
 ## Installation
 
